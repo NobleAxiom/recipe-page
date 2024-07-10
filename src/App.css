@@ -59,6 +59,7 @@ li p {
   font-family: serif;
   font-weight: 500;
   color: darkslategrey;
+  margin-left: 1em;
 }
 .picture {
   height: 6em;

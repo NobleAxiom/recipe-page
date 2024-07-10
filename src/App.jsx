@@ -60,7 +60,7 @@ function App() {
           <ol>
             <li>
               <p>
-                <b>Beat the eggs:</b> In a bowl, beat the eggs with a pinch of
+                <b> Beat the eggs:</b> In a bowl, beat the eggs with a pinch of
                 salt and pepper until they are well mixed. You can add a
                 tablespoon of water or milk for a fluffier texture.
               </p>
