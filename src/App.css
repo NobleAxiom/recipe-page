@@ -10,7 +10,7 @@
   font-family: "Young Serif", serif;
   font-weight: 400;
   font-style: normal;
-  max-width: 400px;
+  max-width: 750px;
   margin: 100px auto;
   background-color: #fff;
   padding: 20px;
@@ -19,8 +19,7 @@
 }
 
 .card {
-  max-width: 400px;
-  margin: 100px auto;
+  margin: 5px auto;
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
@@ -32,13 +31,31 @@
   text-align: left;
 }
 
-.red-text {
-  color: blue;
-  font-family: "Young Serif", serif;
-  font-weight: 400;
-  font-style: normal;
+.row {
+  clear: both;
 }
 
+.column {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+  float: left;
+}
+
+li {
+  margin-bottom: 10px;
+  color: #d9534f;
+}
+li b {
+  font-family: "Young Serif";
+  font-weight: 700;
+  font-style: normal;
+}
+li p {
+  font-family: serif;
+  font-weight: 500;
+  color: darkslategrey;
+}
 .picture {
   height: 6em;
   padding: 1.5em;
