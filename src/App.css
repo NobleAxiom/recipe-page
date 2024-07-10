@@ -16,6 +16,9 @@
 
 .red-text {
   color: red;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .picture {
