@@ -1,13 +1,12 @@
 import "./App.css";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import omeletteImg from "./assets/image-omelette.jpeg";
 
 function App() {
   return (
     <>
       <div class="container">
         <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Omelette Image"></img>
+          <img src={omeletteImg} className="logo" alt="Omelette Image"></img>
         </a>
 
         <div class="section" id="discription">
