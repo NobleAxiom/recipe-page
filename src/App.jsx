@@ -23,13 +23,19 @@ function App() {
           <h3>Preperation Time</h3>
           <ul>
             <li>
-              <p>Total: Approximately 10 minutes</p>
+              <p>
+                <b>Total:</b> Approximately 10 minutes
+              </p>
             </li>
             <li>
-              <p>Preparation: 5 minutes</p>
+              <p>
+                <b>Preparation:</b> 5 minutes
+              </p>
             </li>
             <li>
-              <p>Cooking: 5 minutes</p>
+              <p>
+                <b>Cooking:</b> 5 minutes
+              </p>
             </li>
           </ul>
         </div>
@@ -38,7 +44,7 @@ function App() {
           <h2>Ingredients</h2>
           <ul>
             <li>
-              <p>2 large eggs</p>
+              <p>2-3 large eggs</p>
             </li>
             <li>
               <p>Salt, to taste</p>
@@ -108,7 +114,7 @@ function App() {
         <hr></hr>
 
         <div class="section" id="nutrition">
-          <h2>Nutrition Information</h2>
+          <h2>Nutrition</h2>
           <p>
             The table below shows nutritional values per serving without the
             additional fillings.
