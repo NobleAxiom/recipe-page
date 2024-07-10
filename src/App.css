@@ -6,13 +6,12 @@
 }
 
 .container {
-  color: darkslategrey;
   font-family: "Young Serif", serif;
   font-weight: 400;
   font-style: normal;
   max-width: 750px;
   margin: 100px auto;
-  background-color: #fff;
+  background-color: hsl(0, 0%, 100%);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -20,7 +19,8 @@
 
 .card {
   margin: 5px auto;
-  background-color: rgba(255, 182, 193, 0.238);
+  color: hsl(30, 10%, 34%);
+  background-color: hsl(330, 100%, 98%);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -28,27 +28,25 @@
 }
 
 .section {
+  color: hsl(14, 45%, 36%);
   text-align: left;
 }
 
-.row {
-  clear: both;
+h1 {
+  color: hsl(24, 5%, 18%);
+  text-align: left;
+  line-height: 1.1;
 }
-
-.column {
-  width: 50%;
-  box-sizing: border-box;
-  padding: 10px;
-  float: left;
+h2 {
+  color: hsl(14, 45%, 36%);
 }
-
-#per-serving {
-  color: blue;
+h3 {
+  color: hsl(332, 51%, 32%);
 }
 
 li {
+  color: hsl(14, 45%, 36%);
   margin-bottom: 10px;
-  color: #d9534f;
 }
 li b {
   font-family: "Young Serif";
@@ -58,9 +56,37 @@ li b {
 li p {
   font-family: serif;
   font-weight: 500;
-  color: darkslategrey;
+  color: hsl(30, 10%, 34%);
   margin-left: 1em;
 }
+
+p {
+  font-family: serif;
+  font-weight: 500;
+  color: hsl(30, 10%, 34%);
+  margin-left: 1em;
+}
+
+hr {
+  border-top: 1px solid hsl(30, 18%, 87%);
+}
+
+.row {
+  clear: both;
+}
+.column {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+  float: left;
+}
+#value {
+  color: hsl(30, 10%, 34%);
+}
+#per-serving {
+  color: hsl(14, 45%, 36%);
+}
+
 .picture {
   height: 6em;
   padding: 1.5em;
@@ -74,12 +100,18 @@ li p {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+
+@media screen and (min-width: 500px) {
+  body {
+    background-color: lavender;
   }
 }
 
-.read-the-docs {
-  color: #888;
+@media screen and (min-width: 800px) {
+  body {
+    background-color: linen;
+  }
 }

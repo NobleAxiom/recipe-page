@@ -31,18 +31,6 @@ body {
   min-height: 100vh;
   font-family: Arial, sans-serif;
   text-align: center;
-  background-color: beige;
-}
-
-h1 {
-  text-align: left;
-  line-height: 1.1;
-}
-h2 {
-  color: #d9534f;
-}
-h3 {
-  color: purple;
 }
 
 button {

@@ -10,11 +10,13 @@ function App() {
           <img src={viteLogo} className="logo" alt="Omelette Image"></img>
         </a>
 
-        <h1>Simple Omelette Recipe</h1>
         <div class="section" id="discription">
-          An easy and quick dish, perfect for any meal. This classic omelette
-          combines beaten eggs cooked to perfection, optionally filled with your
-          choice of cheese, vegetables, or meats.
+          <h1>Simple Omelette Recipe</h1>
+          <p>
+            An easy and quick dish, perfect for any meal. This classic omelette
+            combines beaten eggs cooked to perfection, optionally filled with
+            your choice of cheese, vegetables, or meats.
+          </p>
         </div>
 
         <div class="card" id="preperation">
@@ -55,12 +57,14 @@ function App() {
           </ul>
         </div>
 
+        <hr></hr>
+
         <div class="section" id="instructions">
           <h2>Instructions</h2>
           <ol>
             <li>
               <p>
-                <b> Beat the eggs:</b> In a bowl, beat the eggs with a pinch of
+                <b>Beat the eggs:</b> In a bowl, beat the eggs with a pinch of
                 salt and pepper until they are well mixed. You can add a
                 tablespoon of water or milk for a fluffier texture.
               </p>
@@ -101,11 +105,13 @@ function App() {
           </ol>
         </div>
 
+        <hr></hr>
+
         <div class="section" id="nutrition">
           <h2>Nutrition Information</h2>
           <p>
-            The table below shows nutritional per-servings per serving without
-            the additional fillings.
+            The table below shows nutritional values per serving without the
+            additional fillings.
           </p>
           <div class="row">
             <span class="column" id="value">
