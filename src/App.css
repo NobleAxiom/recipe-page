@@ -1,7 +1,5 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
@@ -10,20 +8,12 @@
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
-  max-width: 750px;
-  margin: 100px auto;
+  max-width: 475px;
   background-color: hsl(0, 0%, 100%);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
 .card {
   margin: 20px auto;
   line-height: 1.1;
@@ -38,7 +28,6 @@ img {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: left;
 }
-
 .section {
   color: hsl(14, 45%, 36%);
   text-align: left;
@@ -108,31 +97,61 @@ hr {
   color: hsl(14, 45%, 36%);
 }
 
-.picture {
-  height: 6em;
-  padding: 1.5em;
+body {
+  background-color: hsl(0, 0%, 100%);
+}
+
+#containedWidth {
+  display: none;
+}
+img {
+  display: flex;
+  width: 100%;
+  height: auto;
   will-change: filter;
   transition: filter 300ms;
 }
-.picture:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
+img:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-body {
-  background-color: hsl(30, 54%, 90%);
-}
-
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 475px) {
+  #root {
+    padding: 2rem;
+  }
   body {
-    background-color: antiquewhite;
+    background-color: hsl(30, 54%, 90%);
+  }
+  .container {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    max-width: 750px;
+    margin: 100px auto;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  #fullWidth {
+    display: none;
+  }
+  #containedWidth {
+    display: flex;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .banner:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
   }
 }
 
 @media screen and (min-width: 800px) {
   body {
-    background-color: linen;
+    background-color: hsl(30, 54%, 90%);
   }
 }

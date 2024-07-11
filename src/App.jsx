@@ -4,9 +4,28 @@ import omeletteImg from "./assets/image-omelette.jpeg";
 function App() {
   return (
     <>
+      <a
+        href="https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm"
+        target="_blank"
+      >
+        <img
+          src={omeletteImg}
+          className="banner"
+          id="fullWidth"
+          alt="Omelette Image"
+        ></img>
+      </a>
       <div class="container">
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={omeletteImg} className="logo" alt="Omelette Image"></img>
+        <a
+          href="https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm"
+          target="_blank"
+        >
+          <img
+            src={omeletteImg}
+            className="banner"
+            id="containedWidth"
+            alt="Omelette Image"
+          ></img>
         </a>
 
         <div class="section" id="discription">
