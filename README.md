@@ -25,8 +25,8 @@ to build out this recipe page and get it looking as close to the design as possi
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github.com/NobleAxiom/recipe-page/releases/tag/Release](https://github.com/NobleAxiom/recipe-page/releases/tag/Release)
+- Live Site URL: [recipe-page-nobleaxioms-projects.vercel.app/](https://recipe-page-nobleaxioms-projects.vercel.app/)
 
 ## My process
 
